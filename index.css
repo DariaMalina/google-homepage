@@ -1,0 +1,99 @@
+@font-face {
+    font-family: Incon;
+    src: url("./Inconsolata-VariableFont_wdth,wght.ttf");
+}
+header .container {
+    display: flex;
+    justify-content: flex-end;
+
+}
+main {
+
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+
+}
+.center-search .okno {
+    width: 600px;
+    border-radius: 20px 20px;
+    height: 40px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 10px rgba(43, 43, 43, 0.5);
+
+}
+a {
+    text-decoration: none;
+    padding: 5px;
+    color: #42423a;
+    font-family: Incon, serif ;
+
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.center .center-icon {
+    display: flex;
+    justify-content: center;
+
+    padding-top: 80px;
+}
+.poisk {
+    background-color: #0c0ef8;
+    color: white;
+    border-radius: 10px;
+}
+.info {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+input {
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+footer {
+border-top: 1px solid #d0cfcf;
+   height: 35px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 230px;
+    background-image: -webkit-linear-gradient(top, #e7e4e4, #d3d0d0);
+    font-family: "Times New Roman",sans-serif;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-right a{
+
+}
+
+.nav-right {
+
+    justify-self: flex-end;
+
+
+}
+
+.nav-left {
+
+
+}
